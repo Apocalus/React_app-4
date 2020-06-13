@@ -7,12 +7,12 @@ function App(){
 
   function on_update(){
     console.log("On-Button clicked");
-    setLit(isLit = true)
+    setLit(true)
   }
 
   function off_update(){
     console.log("Off-Button clicked");
-    setLit(isLit = false);
+    setLit(false);
   }
 
   function plus_temp(){
