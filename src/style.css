@@ -1,0 +1,43 @@
+  html, body, #root, .room{
+    height: 100%;
+    margin: 0;
+    font-family: fantasy;
+    text-align: center;
+  }
+
+  .room{
+      grid-template-rows: max-content;
+      padding-top: 50px;
+      font-size: 45px;
+  }
+  
+  .another{
+      grid-template-rows: min-content;
+  }
+
+  .temp{
+      padding-top: 100px;
+  }
+
+  .lit{
+    background-color: white;
+    color: black;
+  }
+  
+  .dark{
+    background-color: black;
+    color: white;
+  }
+
+  #buttons{
+      text-align: center;
+  }
+  #off_button{
+      padding-left: 10px;
+  }
+
+  #minus{
+      padding-left: 10px;
+  }
+
+ 
